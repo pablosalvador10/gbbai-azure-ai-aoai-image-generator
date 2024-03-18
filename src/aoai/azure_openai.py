@@ -372,8 +372,8 @@ class AzureOpenAIManager:
             logger.info(f"Generated image URL: {image_url}")
 
             if show_picture:
-                response = requests.get(image_url)
-                img = mpimg.imread(BytesIO(response.content))
+                response_image = requests.get(image_url)
+                img = mpimg.imread(BytesIO(response_image.content))
 
                 # Create a new figure and add the image to it
                 fig = plt.figure(frameon=False)
@@ -455,3 +455,5 @@ class AzureOpenAIManager:
             total_actual += actual_tokens
 
         return analysis_results, total_estimated, total_actual
+
+
