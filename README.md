@@ -1,8 +1,8 @@
 # <img src="./utils/images/azure_logo.png" alt="Azure Logo" style="width:30px;height:30px;"/>  Image Generation and Multimodal Evaluation with Azure OpenAI
 
-Welcome to this comprehensive guide designed to help developers build robust architectures and applications for multimodal image generation and evaluation using Azure OpenAI. The focus is on using the DALL-E model v3 and the GPT-Vision model to generate images, refine them, and evaluate their quality and relevance.
+Welcome to this comprehensive guide designed to help developers build robust architectures and applications for multimodal image generation and evaluation using Azure OpenAI. The focus is on using the DALL-E model v3 and the GPT4 Turbo vision model to generate images, refine them, and evaluate their quality and relevance.
 
-## Enhancing Image Generation with Prompt Engineering in DALL-E 3
+## 💡 Enhancing Image Generation with Prompt Engineering in DALL-E 3
 
 ### 🎯 Harnessing the Power of Detailed Descriptions
 
